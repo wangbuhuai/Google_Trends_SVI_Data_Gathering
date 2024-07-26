@@ -26,5 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     columnErrorElement.style.paddingLeft = (width3 + 5).toString() + 'px';
 
     document.getElementById('get-svi').addEventListener('click', () => {
+        document.getElementById('get-svi').setAttribute('value', 'Uploading File');
+        console.log(document.getElementById('get-svi').innerText);
     });
 });
